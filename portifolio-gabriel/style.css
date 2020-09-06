@@ -1,0 +1,35 @@
+*{
+list-style: none;
+text-decoration: none;
+}
+
+.circulo {
+
+    display: block;
+    margin-left: 38%;
+	width: 256px;
+	height: 30%;
+	border-radius: 50%;
+	overflow: hidden;
+	transition: 0.3s ease;
+}
+
+.circulo:hover{
+	transform: rotateY(180deg);
+}
+@keyframes circulo{
+from {
+    transform: rotate(0deg) translateX(30px);
+} 
+to {
+    transform: rotate(360deg) translateX(30px);
+}
+ }
+
+ img {
+	display: flex;
+	max-width: 100%;
+}
+
+
+
