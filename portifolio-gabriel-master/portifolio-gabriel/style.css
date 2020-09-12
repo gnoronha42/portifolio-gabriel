@@ -1,0 +1,107 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+a{
+	color: inherit;
+}
+
+p{
+	font-family: Lato,"Helvetica Neue",Arial, Helvetica, sans-serif ;
+	color: black !important;
+}
+
+
+ img {
+	display: flex;
+	max-width: 100%;
+}
+
+.circulo {
+
+	display: flex ;
+	flex:1;
+	flex-wrap: wrap;
+	margin: auto;
+	height: 30%;
+	width: 256px;
+	border-radius: 50%;
+	overflow: hidden;
+	transition: 0.3s ease;
+}
+
+.circulo:hover{
+	transform: rotateY(180deg);
+}
+@keyframes circulo{
+from {
+	transform: rotate(0deg) translateX(30px);
+} 
+to {
+	transform: rotate(360deg) translateX(30px);
+}
+ }
+
+.jumbotron text-center{
+  max-height: 400px;
+  max-width:400px;
+					
+}
+.jumbotron{
+	margin-bottom: 0px;
+}
+
+.textoBranco{
+color: white !important;
+
+}
+
+.corPrimaria{
+background-color: rgb(22, 45, 255)
+}
+
+.corSecundaria{
+background-color: rgb(227, 232, 255);
+}
+
+
+.icones{
+	padding-left: 5px;
+}
+
+.titulosBrancos{
+	text-decoration:underline ;
+	text-underline-position: below;
+	padding-bottom:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+.titulosPrincipaisSecundarios{
+	text-decoration:underline ;
+	text-underline-position: below;
+	padding-bottom:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+}
+.disponivel{
+	padding-bottom:60px;
+	margin-bottom:0px ;	
+}
+.textoFooter{
+	background-color: rgb(95, 92, 92);
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+
+
